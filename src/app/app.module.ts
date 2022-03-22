@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+// import { ProfileComponent } from './components/profile-page/profile-page.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //<--MATERIAL ANGULAR-->
 import {MatButtonModule} from '@angular/material/button'
@@ -19,6 +20,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
+// import {MatGridList, MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import {MatCardModule} from '@angular/material/card';
     MatInputModule,
     MatAutocompleteModule,MatListModule,
     MatCardModule,
-    
+    // MatGridList,
+    // MatGridListModule
   
   ],
   providers: [],

@@ -22,6 +22,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
 // import {MatGridList, MatGridListModule,MatGridTile} from '@angular/material/grid-list';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
     MatInputModule,
     MatAutocompleteModule,MatListModule,
     MatCardModule,
+    ModalModule.forRoot(),
     // MatGridList,
     // MatGridTile,
     //  MatGridListModule

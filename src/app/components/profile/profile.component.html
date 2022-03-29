@@ -1,116 +1,223 @@
-<mat-card class="profile-container box">
-  <mat-card class="profile-image box">
-    <mat-card-title class="title" >Panelist
 
-    </mat-card-title>
-    <mat-card class="box profile-pic-box">
-      <img mat-card-image src="../../../assets/image/profile picture.png" class="profile-pic">
-    </mat-card>
-    
-    <div class="form-group">
-      <input type="file" name="file" id="file" class="input-file">
-      <label for="file" class="btn btn-tertiary js-labelFile">
-       
-        <mat-icon [inline]="true" ><span class="edit-btn-icon">
-          attachment
-          </span></mat-icon>
-        <span class="js-fileName">Choose a file</span>
-      </label>
-    </div>
-    
+<div class="profile-container">
+ 
 
-<!-- <button class="edit-btn" id="upload-btn" mat-menu-item>Edit Profile</button> -->
-    
-  </mat-card>
-  <mat-card class="user-details box">
-    <mat-card class="info-left box">
-    <p>
-      <mat-form-field appearance="outline" class="form-field">
-        <mat-label class="label-ui">Name</mat-label>
-        <input class="input-ui"matInput placeholder="Placeholder" disabled value="Diksha Joshi">
-        
-        
-      </mat-form-field>
-    </p>
-    <p>
-      <mat-form-field appearance="outline" class="form-field">
-        <mat-label class="label-ui">Employee Id</mat-label>
-        <input class="input-ui" matInput placeholder="Placeholder" disabled value="INT950">
-        
-        
-      </mat-form-field>
-    </p>
-    <p>
-      <mat-form-field appearance="outline" class="form-field">
-        <mat-label class="label-ui">Experience</mat-label>
-        <input class="input-ui" matInput placeholder="Placeholder" disabled value="2">
-        
-        
-      </mat-form-field>
-    </p>
-    <p>
-      <mat-form-field appearance="outline" class="form-field">
-        <mat-label class="label-ui">Round</mat-label>
-        <input class="input-ui" matInput placeholder="Placeholder" disabled value="R1">
-        
-        
-      </mat-form-field>
-    </p>
-    
-    <p>
-      <mat-form-field appearance="outline" class="form-field" >
-        <mat-label class="label-ui">Mobile</mat-label>
-        <input class="input-ui" matInput placeholder="Placeholder" disabled value="9999999999">
-        
-        
-      </mat-form-field>
-    </p>
-  </mat-card>
-  <mat-card class="info-right box">
-    <p>
-      <mat-form-field appearance="outline" class="form-field">
-        <mat-label class="label-ui">E-mail</mat-label>
-        <input class="input-ui" matInput placeholder="Placeholder" disabled value="abcd.qwer@xyz.com">
-        
-        
-      </mat-form-field>
-    </p>
-    <p>
-      <mat-form-field appearance="outline" class="form-field">
-        <mat-label class="label-ui">Location</mat-label>
-        <input class="input-ui" matInput placeholder="Placeholder" disabled value="Bengaluru">
-        
-        
-      </mat-form-field>
+  <div class="outer-container">
+      <div class="inner-container">
+          <!-- Left Side -->
+          <div class="left-side">
+              <!-- Profile Card -->
+              <div class="profile-card">
+                  <div class="image-div">
+                      <img 
+                          src="https://lavinephotography.com.au/wp-content/uploads/2017/01/PROFILE-Photography-112.jpg"
+                          alt="Profile Picture">
+                  </div>
+                  <div class="bio">
+                  <h1 class="name">Diksha Joshi</h1>
+                  
+                  <h3 class="left-profile-info">INTERN</h3>
+                  <h3 class="left-profile-info">Bengaluru,Karnataka</h3>
+                  <h3 class="left-profile-info">INT950</h3>
+                </div>
+                  
+              </div>
+              <!-- End of profile card -->
+              
+              
+              <!-- End of friends card -->
+          </div>
+          <!-- Right Side -->
+          <div class="right-side">
+              <!-- Profile tab -->
+              <!-- About Section -->
+              <div class="profile-tab">
+                  <div class="about-section">
+                      <span class="info">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                              stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                          </svg>
+                      </span>
+                      <span class="about">About</span>
+                  </div>
+                  <div class="about-content">
+                      <div class="about-info-block">
+                          <div class="about-information">
+                              <div class="about-info-title">Name</div>
+                              <div class="about-info-text">Diksha Joshi</div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Employee Id</div>
+                              <div class="about-info-text">INT950</div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Gender</div>
+                              <div class="about-info-text">Female</div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Contact No.</div>
+                              <div class="about-info-text">998001001</div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Location</div>
+                              <div class="about-info-text">Bengaluru, Karnataka, India, (APAC)</div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Experience</div>
+                              <div class="about-info-text">00 Y 02 M 11 D</div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Email</div>
+                              <div class="about-info-text">
+                                  abcd@example.com
+                              </div>
+                          </div>
+                          <div class="about-information">
+                              <div class="about-info-title">Round</div>
+                              <div class="about-info-text">R1</div>
+                          </div>
+                      </div>
+                  </div>
+                
+              </div>
+              <!-- End of about section -->
+              <div style="margin-top: 1rem;
+              margin-bottom: 1rem; "></div>
 
-    </p>
-    <mat-card class="box">
-      <mat-label>Skills</mat-label>
-      <p>
-      <mat-form-field appearance="outline">
-        <mat-label class="label-ui">Primary Skill</mat-label>
-        <input class="input-ui" matInput disabled="false" placeholder="Java">
+              <!-- Skills Section -->
+              <div class="bottom-section">
+
+                  <div class="about-information">
+                      <div class="skill-tab">
+                          <div class="skills-icon-section">
+                              <span class="icon-color">
+                                  <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                      stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                  </svg>
+                              </span>
+                              <span class="about">Skills</span>
+                          </div>
+                          <ul class="lists">
+                              
+                              <li>
+                                  <div class="list-title">Java
+                                    <button type="button" class="edit-btn" (click)="openModal(template)">Edit</button>
+ 
+                                    <ng-template #template>
+                                    <div class="modal-header">
+                                        <h4 class="modal-title pull-left">Add Primary Skill</h4>
+                                        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+                                        <span aria-hidden="true" class="visually-hidden">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="example-form">
+                                            <mat-form-field class="example-full-width" appearance="fill">
+                                        
+                                              <input matInput placeholder="Ex. Python">
+                                        
+                                            </mat-form-field>
+                                          
+                                        </form>
+                                    </div>
+                                    </ng-template>
+                                  </div>
+                                  <div class="list-content">Primary Skill</div>
+                                </li>
+                                  
+                                
+                              
+                              <li>
+                                  <div class="list-title">JavaScript
+                                    <button type="button" class="edit-btn" (click)="openModal(template)">Edit</button>
+ 
+                                    <ng-template #template>
+                                    <div class="modal-header">
+                                        <h4 class="modal-title pull-left">Add Secondary Skill</h4>
+                                        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+                                        <span aria-hidden="true" class="visually-hidden">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="example-form">
+                                            <mat-form-field class="example-full-width" appearance="fill">
+                                        
+                                              <input matInput placeholder="Ex. Python">
+                                        
+                                            </mat-form-field>
+                                          
+                                        </form>
+                                    </div>
+                                    </ng-template>
+                                  </div>
+                                  <div class="list-content">Seondary Skill</div>
+                                   
+                              </li>
+                              <li>
+                                  <div class="list-title">React
+                                    <button type="button" class="edit-btn" (click)="openModal(template)">Edit</button>
+ 
+                                    <ng-template #template>
+                                    <div class="modal-header">
+                                        <h4 class="modal-title pull-left">Add Tertiary Skill</h4>
+                                        <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+                                        <span aria-hidden="true" class="visually-hidden">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form class="example-form">
+                                            <mat-form-field class="example-full-width" appearance="fill">
+                                        
+                                              <input matInput placeholder="Ex. Python">
+                                        
+                                            </mat-form-field>
+                                          
+                                        </form>
+                                    </div>
+                                    </ng-template>
+                                  </div>
+                                  <div class="list-content">Tertiary Skill </div>
+                                  
+                                 
+                              </li>
+                             
+                          </ul>
+                      </div>
+                      <div class="about-information">
+                        <div class="skill-tab">
+                            <div class="skills-icon-section">
+                              <span class="icon-color">
+                                  <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                      stroke="currentColor">
+                                      <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+                                      <path fill="#fff"
+                                          d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                                  </svg>
+                              </span>
+                              <span class="about">Interviews Rundown</span>
+                          </div>
+                        
+                          <ul class="lists">
+                              <li>
+                                  <div class="list-title">44</div>
+                                  <div class="list-content">Total Interviews Taken</div>
+                              </li>
+                              <li>
+                                  <div class="list-title">34</div>
+                                  <div class="list-content">Total Candidates Selecetd</div>
+                              </li>
+                             
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                    </div>    
+          </div>                
         
-        
-      </mat-form-field>
-    </p>
-    <p>
-      <mat-form-field appearance="outline">
-        <mat-label class="label-ui">Secondary Skill</mat-label>
-        <input class="input-ui" matInput placeholder="Python">
-        
-        
-      </mat-form-field>
-    </p>
-    <p>
-      <mat-form-field appearance="outline">
-        <mat-label class="label-ui">Tertiary Skill</mat-label>
-        <input class="input-ui" matInput placeholder="JavaScript">
-        
-        
-      </mat-form-field>
-    </p>
-  </mat-card>
-  </mat-card>
-  </mat-card>
-</mat-card>
+          

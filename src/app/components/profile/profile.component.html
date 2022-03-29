@@ -14,11 +14,11 @@
                           alt="Profile Picture">
                   </div>
                   <div class="bio">
-                  <h1 class="name">Diksha Joshi</h1>
+                  <h1 class="name">{{name}}</h1>
                   
-                  <h3 class="left-profile-info">INTERN</h3>
-                  <h3 class="left-profile-info">Bengaluru,Karnataka</h3>
-                  <h3 class="left-profile-info">INT950</h3>
+                  <h3 class="left-profile-info">{{designation}}</h3>
+                  <h3 class="left-profile-info">{{location}}</h3>
+                  <h3 class="left-profile-info">{{empId}}</h3>
                 </div>
                   
               </div>
@@ -133,9 +133,9 @@
                               
                               <li>
                                   <div class="list-title">JavaScript
-                                    <button type="button" class="edit-btn" (click)="openModal(template)">Edit</button>
+                                    <button type="button" class="edit-btn" (click)="openModal(template1)">Edit</button>
  
-                                    <ng-template #template>
+                                    <ng-template #template1>
                                     <div class="modal-header">
                                         <h4 class="modal-title pull-left">Add Secondary Skill</h4>
                                         <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
@@ -159,9 +159,9 @@
                               </li>
                               <li>
                                   <div class="list-title">React
-                                    <button type="button" class="edit-btn" (click)="openModal(template)">Edit</button>
+                                    <button type="button" class="edit-btn" (click)="openModal(template2)">Edit</button>
  
-                                    <ng-template #template>
+                                    <ng-template #template2>
                                     <div class="modal-header">
                                         <h4 class="modal-title pull-left">Add Tertiary Skill</h4>
                                         <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">

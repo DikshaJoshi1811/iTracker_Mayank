@@ -12,7 +12,24 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 })
 export class ProfileComponent {
   data: any;
-  modalRef?: BsModalRef;
+  // name:any;
+  name="Diksha";
+  designation="Intern";
+  location="Bengaluru, Karnataka, India, (APAC)";
+  empId="INT950";
+  // constructor(){
+  //   private httpFetch: FetchClient
+  // }
+  // constructor(private httpFetch: FetchClient) {
+  //   this.httpFetch
+  //     .get<any>(" ")
+  //     .pipe(take(1), map(m => m.joke))
+  //     .subscribe(data => {
+  //       this.data = data;
+  //     });
+  //   }
+  // constructor(private http: HttpClient) { }
+      modalRef?: BsModalRef;
   constructor(private modalService: BsModalService) {}
  
   openModal(template: TemplateRef<any>) {
@@ -22,12 +39,14 @@ export class ProfileComponent {
   // onClickSubmit(data: any) {
   //   this.formData.setValue(data);
   //   this.formData.setControl(
-  //     "slotDate",
-  //     new FormControl(this.formatDateToString(this.slotDate))
+  //     "skilladd",
+  //     new FormControl(this.skillAdd)
   //   );
   //   console.log("FORM DATA", this.formData.getRawValue());
   // }
-}
-  
+  }
 
+
+ 
+  
 

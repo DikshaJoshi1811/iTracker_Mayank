@@ -16,6 +16,7 @@ import { MatMenuModule } from '@angular/material/menu';
 // import {MatGridListModule,MatGridTile} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
 import { ProfileComponent } from './profile/profile.component';
+import { HttpClientModule } from '@angular/common/http';
 
 // import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
@@ -36,7 +37,9 @@ import { ProfileComponent } from './profile/profile.component';
     ReactiveFormsModule,
     FormsModule,
     // FlexLayoutModule
-    MatInputModule
+    MatInputModule,
+    // ProfileComponent,
+    HttpClientModule
 
   ],
   exports: [

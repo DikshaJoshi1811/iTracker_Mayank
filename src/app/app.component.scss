@@ -6,31 +6,28 @@ body {
   margin-left: 0px;
 }
 @mixin md-icon-size($size: 24px) {
-    font-size: $size;
-    height: $size;
-    width: $size;
-    line-height: $size;
-    display: flex;
-    justify: end;
-    justify-content: space-between
-  }
-  
+  font-size: $size;
+  height: $size;
+  width: $size;
+  line-height: $size;
+  display: flex;
+  justify: end;
+  justify-content: space-between;
+}
 
-  
-  mat-icon {
-    @include md-icon-size(32px);
-    display: flex;
-    justify-items: end;
-  }
-  a:hover{
-    color: white;
-  }
-  a:visited{
-    color: white;
-  }
-  .app-header{
-    display: flex;
-    justify-content: space-between;
-    // margin: 0;
-  }
-  
+mat-icon {
+  @include md-icon-size(32px);
+  display: flex;
+  justify-items: end;
+}
+a:hover {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  // margin: 0;
+}

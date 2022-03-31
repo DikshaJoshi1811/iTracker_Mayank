@@ -1,29 +1,30 @@
 <!-- Toolbar -->
 
-<mat-toolbar color="primary" class="app-header" >
-    <div>
-        <a href="https://www.accolite.com/" target="_blank" class="accolite">Accolite iTracker</a>
-    </div>
-    
-       <span class="nav-tool-menu">
-    
+<mat-toolbar color="primary" class="app-header">
+  <div>
+    <a href="https://www.accolite.com/" target="_blank" class="accolite"
+      >Accolite iTracker</a
+    >
+  </div>
+
+  <span class="nav-tool-menu">
     <mat-menu #menu="matMenu">
-        <button routerLink="profile" routerLinkActive="active" mat-menu-item>View Profile</button>
-        <button routerLink="home" routerLinkActive="active" mat-menu-item>Home</button>
-        <button routerLink="login" routerLinkActive="active" mat-menu-item>Sign out</button>
-        
+      <button routerLink="profile" routerLinkActive="active" mat-menu-item>
+        View Profile
+      </button>
+      <button routerLink="home" routerLinkActive="active" mat-menu-item>
+        Home
+      </button>
+      <button routerLink="login" routerLinkActive="active" mat-menu-item>
+        Sign out
+      </button>
     </mat-menu>
-    
 
-    <mat-icon [inline]="true" [matMenuTriggerFor]="menu"><span class="material-icons">
-        account_circle
-        </span></mat-icon>
-    </span>
-    
-  </mat-toolbar>
+    <mat-icon [inline]="true" [matMenuTriggerFor]="menu"
+      ><span class="material-icons"> account_circle </span></mat-icon
+    >
+  </span>
+</mat-toolbar>
 
-  
-  <!-- <app-profile></app-profile> -->
-  <router-outlet>
-      
-  </router-outlet>
+<!-- <app-profile></app-profile> -->
+<router-outlet> </router-outlet>

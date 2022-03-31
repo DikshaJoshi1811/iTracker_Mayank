@@ -11,7 +11,7 @@ import { IProfile } from "./profile";
     constructor(private http: HttpClient){}
 
 
-    getProfileInfo(): Observable<IProfile>{
-        return this.http.get<IProfile>(this._url);
+    getProfileInfo(): Observable<IProfile[]>{
+        return this.http.get<IProfile[]>(this._url);
     }
 }
